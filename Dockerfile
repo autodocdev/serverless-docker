@@ -12,6 +12,8 @@ RUN npm install -g serverless --ignore-script \
     && python get-pip.py \
     && pip install awscli
 
+RUN mkdir /dynamodb
+
 USER node
 
 EXPOSE 3000 8000

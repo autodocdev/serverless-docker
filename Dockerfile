@@ -16,4 +16,4 @@ USER node
 
 EXPOSE 3000 8000
 
-CMD ["sls", "offline"]
+CMD ["sls", "offline", "start"]
